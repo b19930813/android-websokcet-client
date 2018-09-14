@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Youngtec PushOver</string>
+    <string name="websocket_help"></string>
+    <string name="menu_settings"></string>
+    <string name="action_settings"></string>
+    <string name="title_activity_alarm">AlarmActivity</string>
+    <string name="title_activity_alarm_list">AlarmListActivity</string>
+    <string name="title_activity_alarm__list">Alarm_ListActivity</string>
+    <string name="title_activity_database">Database</string>
+    <string name="title_activity_user_data">UserData</string>
+    <string name="title_activity_select_">Select_Activity</string>
+</resources>

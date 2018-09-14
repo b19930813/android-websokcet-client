@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_alarm"
+            android:icon="@drawable/ic_stat_name"
+            android:title="報警資訊" />
+        <item
+            android:id="@+id/nav_database"
+            android:icon="@drawable/ic_stat_name"
+            android:title="使用者資料" />
+        <item
+            android:id="@+id/nav_uesr"
+            android:icon="@drawable/ic_stat_name"
+            android:title="使用者設定畫面" />
+        <item
+            android:id="@+id/nav_alarm_log"
+            android:icon="@drawable/ic_stat_name"
+            android:title="查詢歷史資料" />
+
+    </group>
+
+    <item android:title="系統">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="設定" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_stat_name"
+                android:title="離開程式" />
+        </menu>
+    </item>
+
+</menu>
